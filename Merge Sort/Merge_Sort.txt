@@ -1,0 +1,23 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+Answers :
+1-
+                [16,21,11,8,12,22]
+           [16,21,11]        [8,12,22]               
+        [16] [21,11]            [8][12,22]          
+     [16][11][21]                    [8][12][22]    
+        [11,16] [21]            [8,12] [22]         
+            [11,16,21]        [8,12,22]
+                [8,11,12,16,21,22]
+
+2^x = n -> log2(n) 
+x = logn kere bölme (Split) işlemi yapılmış oldu.
+
+Her alt dizin için birleştirme (Merce) işlemi O(n) yapıldığı için
+Big 0 = O(n) * logn = O(nlogn)
+karmaşıklık maliyeti oluşur.
+
