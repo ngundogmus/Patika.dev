@@ -1,0 +1,44 @@
+#container{
+    text-align: center;
+    color: chartreuse;
+}
+
+header {
+    text-align: center;
+       
+}
+aside{
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+main{
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+ul{
+    display: inline;
+    text-align: center;
+    color: blue;
+    list-style-position: inside;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+img {
+    width: 250px;
+}
+
+h1{
+    color:crimson;
+}
+
+h2{
+    color:darkgreen;
+}
+
+h3{
+    color:maroon;
+}
